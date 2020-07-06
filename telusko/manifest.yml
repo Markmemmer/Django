@@ -1,0 +1,8 @@
+---
+applications:
+- name: telusko
+  random-route: true
+  memory: 64M
+  command: bash ./run.sh
+  buildpack: python_buildpack
+  path: .
